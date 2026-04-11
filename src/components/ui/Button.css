@@ -1,0 +1,26 @@
+/* Default shine for ALL buttons */
+.btn-default-shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-default-shine::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.35),
+    transparent
+  );
+  transform: translateX(-100%);
+  transition: transform 0.5s ease;
+  pointer-events: none;
+}
+
+.btn-default-shine:hover::before,
+.btn-default-shine:active::before,
+.btn-default-shine:focus-visible::before {
+  transform: translateX(100%);
+}
