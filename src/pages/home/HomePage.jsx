@@ -70,7 +70,7 @@ const HomePage = () => {
         {/* TEXT */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-6 sm:pt-10 text-center">
           <p className="text-2xl sm:text-3xl md:text-4xl text-indigo-600 font-bold">
-            Lorem ipsum dolor
+            Solar Fight Club
           </p>
 
           <h1 className="mt-2 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
