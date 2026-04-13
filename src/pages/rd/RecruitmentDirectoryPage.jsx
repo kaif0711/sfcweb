@@ -139,6 +139,9 @@ const RecruitmentDirectoryPage = () => {
                     { label: "Mumbai", value: "Mumbai" },
                     { label: "Delhi", value: "Delhi" },
                     { label: "Chennai", value: "Chennai" },
+                    { label: "Mumbai", value: "Mumbai" },
+                    { label: "Delhi", value: "Delhi" },
+                    { label: "Chennai", value: "Chennai" },
                   ]}
                   bgColor="white"
                   textColor="black"
@@ -169,7 +172,6 @@ const RecruitmentDirectoryPage = () => {
                     { label: "Mumbai", value: "Mumbai" },
                     { label: "Delhi", value: "Delhi" },
                     { label: "Mumbai", value: "Mumbai" },
-                    { label: "Delhi", value: "Delhi" },
                   ]}
                   bgColor="white"
                   textColor="black"

@@ -97,7 +97,7 @@ const HomePage = () => {
       <div className="mt-42 relative z-30">
         <SearchFilterBar
           data={sampleCards}
-          cityOptions={["Mumbai", "Delhi", "Pune"].map((c) => ({
+          cityOptions={["Mumbai", "Delhi", "Pune", "Chennai"].map((c) => ({
             label: c,
             value: c,
           }))}

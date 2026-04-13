@@ -82,7 +82,7 @@ const VideoModal = ({ isOpen, onClose, video }) => {
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
                 {video.subtitle ||
-                  "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"}
+                  "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet "}
               </p>
             </div>
 
@@ -94,7 +94,7 @@ const VideoModal = ({ isOpen, onClose, video }) => {
                   Categories:{" "}
                 </span>
                 <div className="flex gap-2 flex-wrap">
-                  {(video.tags || ["Energy Storage"]).map((tag, i) => (
+                  {(video.tags || ["Energy Storage", "Renewable Energy", "Wind"]).map((tag, i) => (
                     <span
                       key={i}
                       className="bg-blue-700 text-white text-xs px-4 py-1 rounded-lg"
