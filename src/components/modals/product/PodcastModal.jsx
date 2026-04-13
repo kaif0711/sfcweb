@@ -116,7 +116,7 @@ const PodcastProfileModal = ({ isOpen, onClose, video }) => {
                 </li>
 
                 <li className="flex gap-2 items-center">
-                  <MdCall /><span>Contact:</span>
+                  <MdCall /><span>Contactt:</span>
                   <span>{video.contact || "+23 1234 589 2587"}</span>
                 </li>
               </ul>

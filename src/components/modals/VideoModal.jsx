@@ -117,7 +117,7 @@ const VideoModal = ({ isOpen, onClose, video }) => {
             {/* SHARE BUTTONS */}
             <div className="border-t border-gray-300 pt-4">
               <h3 className="font-semibold text-gray-900 text-xl mb-3">
-                Share this video
+                Share this videos
               </h3>
 
               <div className="flex flex-wrap gap-3">

@@ -83,7 +83,7 @@ const HomePage = () => {
           >
             Lorem ipsum dolor sit amet Lorem ipsum{" "}
             <br className="hidden sm:block" />
-            dolor sit amet
+            dolor sit amett
           </p>
         </div>
 

@@ -168,6 +168,8 @@ const RecruitmentDirectoryPage = () => {
                     { label: "Chennai", value: "Chennai" },
                     { label: "Mumbai", value: "Mumbai" },
                     { label: "Delhi", value: "Delhi" },
+                    { label: "Mumbai", value: "Mumbai" },
+                    { label: "Delhi", value: "Delhi" },
                   ]}
                   bgColor="white"
                   textColor="black"

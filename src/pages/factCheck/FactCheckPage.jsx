@@ -18,10 +18,9 @@ const sampleCards = Array.from({ length: 10 }).map((_, i) => ({
   highlight: "Solar panels don’t work at night — Myth!",
   description:
     "Solar panels stop producing electricity after sunset, leading people to believe they are ineffective.",
-  fact:
-    "Solar panels generate electricity during the day, reducing grid usage. Excess energy can be stored or exported.",
+  fact: "Solar panels generate electricity during the day, reducing grid usage. Excess energy can be stored or exported.Solar panels generate electricity during the day, reducing grid usage. Excess energy can be stored or exported.",
   source: "https://www.energy.gov/solar",
-  tags: ["Solar", "Renewable", "CleanTech"],
+  tags: ["Solar", "Renewable", "CleanTech","Energy"],
 }));
 
 const FactCheckPage = () => {
@@ -31,7 +30,7 @@ const FactCheckPage = () => {
   const totalPages = Math.ceil(sampleCards.length / pageSize);
   const paginatedCards = sampleCards.slice(
     currentPage * pageSize,
-    currentPage * pageSize + pageSize
+    currentPage * pageSize + pageSize,
   );
 
   return (

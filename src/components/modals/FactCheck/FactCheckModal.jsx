@@ -62,7 +62,7 @@ const FactCheckModal = ({ isOpen, onClose, data = {} }) => {
                   Myth
                 </div>
                 <span className="bg-blue-900 text-white text-xs px-3 py-1 rounded-lg">
-                  Solar Energy
+                  Solar Energy.
                 </span>
               </div>
               <p className="text-gray-800 text-lg">
